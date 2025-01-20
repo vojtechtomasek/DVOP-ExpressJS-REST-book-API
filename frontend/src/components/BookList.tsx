@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { FiEdit, FiTrash } from "react-icons/fi";
-import { Book } from "../../../src/models/book"; // Adjust the relative path as needed
+import { Book } from "../../../src/models/book";
 
 interface BookListProps {
   refresh: boolean;
